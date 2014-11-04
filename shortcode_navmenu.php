@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Short Code Navmenu
-Plugin URI: http://caitsithware.com/
+Plugin URI: https://github.com/caitsithware/wp_shortcode_navmenu
 Description: navmenuを表示させるショートコード
-Author: lycoris
+Author: caitsithware
 Version: 1.0
-Author URI: http://caitsithware.com/
+Author URI: http://caitsithware.com/wordpress/
 */
 function shortcode_nav_menu($atts, $content = null) {
     extract(shortcode_atts(array(
